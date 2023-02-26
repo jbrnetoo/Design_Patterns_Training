@@ -1,5 +1,4 @@
-﻿using Design_Patterns_Training.Factory;
-using System;
+﻿using Design_Patterns_Training.AbstractFactory;
 
 namespace Design_Patterns_Training
 {
@@ -7,7 +6,8 @@ namespace Design_Patterns_Training
     {
         static void Main(string[] args)
         {
-            Factory_Pattern.Run();
+            // Factory_Pattern.Run();
+            Abstract_Factory_Pattern.Run();
         }
     }
 }
