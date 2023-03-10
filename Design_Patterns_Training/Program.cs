@@ -1,4 +1,5 @@
 ﻿using Design_Patterns_Training.AbstractFactory;
+using Design_Patterns_Training.Facade;
 using Design_Patterns_Training.Singleton;
 
 namespace Design_Patterns_Training
@@ -8,8 +9,9 @@ namespace Design_Patterns_Training
         static void Main(string[] args)
         {
             // Factory_Pattern.Run();
-            //Abstract_Factory_Pattern.Run();
-            Singleton_Pattern.Run();
+            // Abstract_Factory_Pattern.Run();
+            // Singleton_Pattern.Run();
+            FacadePattern.Run();
         }
     }
 }
