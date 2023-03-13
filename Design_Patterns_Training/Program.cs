@@ -1,6 +1,4 @@
-﻿using Design_Patterns_Training.AbstractFactory;
-using Design_Patterns_Training.Facade;
-using Design_Patterns_Training.Singleton;
+﻿using Design_Patterns_Training.Strategy;
 
 namespace Design_Patterns_Training
 {
@@ -11,7 +9,8 @@ namespace Design_Patterns_Training
             // Factory_Pattern.Run();
             // Abstract_Factory_Pattern.Run();
             // Singleton_Pattern.Run();
-            FacadePattern.Run();
+            // FacadePattern.Run();
+            StrategyPattern.Run();
         }
     }
 }

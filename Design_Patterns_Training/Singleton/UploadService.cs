@@ -10,11 +10,11 @@
 
         public static UploadService GetInstance(string message)
         {
-            if(_instance == null)
+            if (_instance == null)
             {
                 lock (_lock)
                 {
-                    if(_instance == null)
+                    if (_instance == null)
                     {
                         _instance = new UploadService();
                         _instance.Message = message;

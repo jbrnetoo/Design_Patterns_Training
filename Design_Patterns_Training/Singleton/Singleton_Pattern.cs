@@ -7,8 +7,8 @@ namespace Design_Patterns_Training.Singleton
     {
         public static void Run()
         {
-            Thread t1 = new Thread(() => 
-            { 
+            Thread t1 = new Thread(() =>
+            {
                 var instance = UploadService.GetInstance("Instance One");
                 Console.WriteLine(instance.Message);
             });
